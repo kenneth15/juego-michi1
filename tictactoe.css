@@ -1,0 +1,21 @@
+
+
+.pieza{ border: 1px solid #000000; width: 60px;height:60px;margin-left: 15px;margin-right: 15px;}
+        .pieza[value="x"]{color: #ffffff;background-color: #4caf50;}
+        .pieza[value="o"]{ color: #ffffff;background-color: #9c27b0;}
+        .ganador{border: 1px solid #ffffff;width: 50px;height:50px;margin-left: 15px;margin-right: 15px;}
+        .ganador[value="x"]{color: #ffffff;background-color: #4caf50;}
+        .ganador[value="o"]{ color: #ffffff;background-color: #9c27b0;}
+        
+
+
+        .pieza[value="o"]::before {
+                font-family: "Font Awesome 5 Free"; 
+                font-weight: 900; 
+                content: "\f111";
+              }
+              .pieza[value="x"]::before {
+                font-family: "Font Awesome 5 Free"; 
+                font-weight: 900; 
+                content: "\f00d";
+              }
